@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:17:10:17 +0530] "GET / HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:17:10:21 +0530] "GET /spring4 HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:17:10:21 +0530] "GET /spring4/ HTTP/1.1" 404 967 http-bio-8080-exec-3 32
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:17:10:25 +0530] "GET /spring4/hello HTTP/1.1" 200 342 http-bio-8080-exec-4 1114
+0:0:0:0:0:0:0:1 - - [23/Jun/2016:17:10:25 +0530] "GET /spring4/resources/css/style.css;jsessionid=C6A84C2B679B32797967258B11EDFCEF HTTP/1.1" 200 40 http-bio-8080-exec-5 8
